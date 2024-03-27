@@ -3,10 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/png"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <hi>Proyecto Base</hi>
+    <main class="main">
+      <section class="card-top">
+        <img src="./assets/images/logo.svg" alt="FYLO" />
+        <div class="icon-container">
+          <img
+            class="icon icon-document"
+            src="./assets/images/icon-document.svg"
+            alt="document"
+          />
+          <img
+            class="icon icon-folder"
+            src="./assets/images/icon-folder.svg"
+            alt="folder"
+          />
+          <img
+            class="icon icon-upload"
+            src="./assets/images/icon-upload.svg"
+            alt="upload"
+          />
+        </div>
+      </section>
+      <section class="card-bottom">
+        <h2 class="title">
+          You’ve used <span class="bold">815 GB</span> of your storage
+        </h2>
+        <div class="loading">
+          <div class="loading-porcent"></div>
+        </div>
+        <div class="info"><span>0 GB</span> <span>1000 GB</span></div>
+      </section>
+      <div><span class="bold-bottom">185</span>GB LEFT</div>
+    </main>
   </body>
 </html>

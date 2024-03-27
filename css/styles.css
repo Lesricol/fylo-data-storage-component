@@ -18,5 +18,28 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.main{
+  margin: 1.5625rem;
+}
+
+.card-top{
+  width: 326px;
+  padding: 42px ;
+  background-color: #1E2D69;
+  border-radius: 10px 100px 10px 10px;
+}
+
+.icon-container{
+  width: 177px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon{
+  background-color: #0C122C;
+  border-radius: 10px;
 }
