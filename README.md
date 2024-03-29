@@ -33,8 +33,8 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 Victor Rico (Lesricol)
 
-- [micorreo@midominio.com](lessricc@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/victor-rico-61b31a300/)
+- [lessricc@gmail.com]
+- [https://www.linkedin.com/in/victor-rico-61b31a300/]
 
 ## Instalación
 
