@@ -45,7 +45,7 @@ body {
   body{
     background-color: #0C122C;
     background-image: url(/assets/images/bg-desktop.png);
-    background-position: 0 300px;
+    background-position: bottom;
     flex-direction: row;
     align-items: center;
 
