@@ -19,36 +19,44 @@
   </head>
   <body>
     <main class="main">
-      <section class="card-top">
-        <img src="./assets/images/logo.svg" alt="FYLO" />
-        <div class="icon-container">
-          <img
-            class="icon icon-document"
-            src="./assets/images/icon-document.svg"
-            alt="document"
-          />
-          <img
-            class="icon icon-folder"
-            src="./assets/images/icon-folder.svg"
-            alt="folder"
-          />
-          <img
-            class="icon icon-upload"
-            src="./assets/images/icon-upload.svg"
-            alt="upload"
-          />
-        </div>
-      </section>
-      <section class="card-bottom">
-        <h2 class="title">
-          You’ve used <span class="bold">815 GB</span> of your storage
-        </h2>
-        <div class="loading">
-          <div class="loading-porcent"></div>
-        </div>
-        <div class="info"><span>0 GB</span> <span>1000 GB</span></div>
-      </section>
-      <div><span class="bold-bottom">185</span>GB LEFT</div>
+      <div class="all-info">
+        <section class="card-top">
+          <img class="fylo-img" src="./assets/images/logo.svg" alt="FYLO" />
+          <div class="icon-container">
+            <img
+              class="icon icon-document"
+              src="./assets/images/icon-document.svg"
+              alt="document"
+            />
+            <img
+              class="icon icon-folder"
+              src="./assets/images/icon-folder.svg"
+              alt="folder"
+            />
+            <img
+              class="icon icon-upload"
+              src="./assets/images/icon-upload.svg"
+              alt="upload"
+            />
+          </div>
+        </section>
+        <section class="card-bottom">
+          <p class="title">
+            You’ve used <span class="bold">815 GB</span> of your storage
+          </p>
+          <div class="loading">
+            <div class="loading-porcent"></div>
+          </div>
+          <div class="info">
+            <span class="bold storage">0 GB</span>
+            <span class="bold storage">1000 GB</span>
+          </div>
+        </section>
+      </div>
+      <div class="space-restant">
+        <span class="bold bottom">185</span>
+        <span class="bold restant">GB LEFT</span>
+      </div>
     </main>
   </body>
 </html>
